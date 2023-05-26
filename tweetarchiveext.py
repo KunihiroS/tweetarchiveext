@@ -15,5 +15,5 @@ def extract_full_text(js_file, output_jsonl_file):
 
 # Example usage:
 # Here we are using os.path.abspath to convert relative path to absolute path
-# ('inputsource','outputsource')
+# ('inputsource','output')
 extract_full_text(os.path.abspath('.tweets.js'), '.output.jsonl')
